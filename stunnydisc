@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+ int X,P,f,g;
+ f=X;
+ g=X;
+ while(g>0)
+ {
+  g=X-((p/100)*X);
+  f=f+g;
+  X=g;
+ }
+ printf("%d",f);
+}
